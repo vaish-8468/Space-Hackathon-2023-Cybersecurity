@@ -335,7 +335,7 @@ import os
 
 # OPENAI_API_KEY='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'
 # ai.api_key=os.environ.get('OPENAI_API_KEY')
-ai.api_key='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'
+ai.api_key='YOUR-OPEN-API-KEY'
 
 # a short function that makes a call out to OpenAI’s completion API to generate a series of text tokens from a given prompt:
 
