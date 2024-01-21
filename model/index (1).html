@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anomaly Detection Report</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 20px 100px;
+        
+      }
+
+      h1 {
+        color: #333333;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        white-space: normal;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        white-space: normal;
+      }
+
+      .highlight {
+        background-color: #ffcccc;
+        page-break-inside: avoid;
+      }
+
+      .overview {
+        background-color: whitesmoke;
+        text-align: center;
+        border: 6px solid red;
+        border-radius: 20px;
+        padding: 100px;
+      }
+      .requested-file-path {
+        max-width: 150px; /* Adjust the width as needed */
+        overflow: hidden;
+        text-overflow: ellipsis; /* Show ellipsis (...) for truncated text */
+    }
+    .table{
+      page-break-inside: auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="overview">
+      <h1>Anomaly Detection Report</h1>
+      <hr>
+
+      <p>Dear Bhuvan Team,</p>
+
+      <p>
+        Our security monitoring systems have detected anomalous activities in
+        the network. Below is a summary of flagged logs with their classified
+        attack type:
+      </p>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Timestamp</th>
+            <th>IP Address</th>
+            <th>Status Code</th>
+            <th>Attack Type</th>
+            <th>Requested File Path</th>
+          </tr>
+        </thead>
+        <tbody>
+          [AnomaliesPlaceholder]
+        </tbody>
+      </table>
+
+      <p>
+        For your reference, the highlighted row indicates the most recent
+        flagged log with its associated details.
+      </p>
+
+      <p>
+        Please take immediate action to investigate and mitigate the impact of
+        these anomalies.
+      </p>
+
+      <p>Thank you for your attention to this matter.</p>
+    </div>
+  </body>
+</html>

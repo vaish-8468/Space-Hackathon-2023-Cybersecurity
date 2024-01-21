@@ -1,0 +1,17 @@
+EventId,EventTemplate,EventIds
+9869f0abc1dcfe3d4b8fd8d3578c10b0,"""GET <*> <*>",1
+dfddfa43f6d937e360c27da0d51520d5,"""GET /rbi <*>",2
+d06a5e5126c98090d98eb6763636f1b6,"""GET /rbi/ <*>",3
+4813d556b055544a3bddd61f8b1aa2d8,"""GET /anganwadi/ <*>",4
+9e75d1224fcf25b31808e47dcb46c7b4,"""POST <*> <*>",5
+2882ec1b6c3d89c967c20842f1349cb9,"""GET /scan_alka/mhrd_ncert/sb/sb-hi.php <*>",6
+f42614ab7062da40f4125e65de33ad2a,"""GET /scan_alka/mhrd_ncert/sb/get/legend_hindi.php?q= <*>",7
+1bcc1aaf48ab5feedbc69087e608acf8,"""GET /scan_p/bhuvanNTL/getStats.php?state=INDIA <*>",8
+bcbf72fc620fa9efc9cf337d9cf27727,"""GET /scan_p/bhuvanNTL/geometryState.php <*>",9
+2843e02cd0260a2f59fb01531c30fd3a,"""GET /scan_p/bhuvanNTL/geometryState.php?state=DELHI <*>",10
+2eee43177767911793d1ba0bd70a83f3,"""GET /scan_p/bhuvanNTL/indiageometry.php <*>",11
+946d4c023553b07ccc007ebedeccbd2c,"""POST /nird_dashboard/dashboard_index.php <*>",12
+1c8ea5d71711f6f987d818cc296a99f7,"""GET /twris/geoportal/usertasks/twris/layers.php <*>",13
+3eb1fddbd4e46402fcda16371bcc210a,"""GET /scan_alka/mhrd_ncert/sb/get/legend_hindi.php?q=school:Bauxite-hindi__ <*>",14
+7afa283301603dcd9d1f4eb1d8e904ce,"""GET /kyrdemo/index.html <*>",15
+fd55608b9f39b89e50a9a03fcff12b51,"""GET /kyrdemo/ <*>",16
